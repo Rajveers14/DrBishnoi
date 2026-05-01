@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dr. Rajkumar Bishnoi — Child Specialist &amp; Pediatrician in Udaipur. Expert care for newborns, infants &amp; children. Book consultation at ₹500. Opens 5:30 PM daily." />
+  <meta name="keywords" content="pediatrician Udaipur, child specialist Udaipur, Dr Bishnoi, children doctor Udaipur, newborn care, NICU Udaipur" />
+  <meta name="author" content="Dr. Rajkumar Bishnoi Child Wellness Center" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dr. Bishnoi Child Wellness Center — Udaipur" />
+  <meta property="og:description" content="Expert pediatric care for newborns, infants &amp; children in Udaipur. ⭐ 5.0 Rated · ₹500 Consultation" />
+  <meta property="og:image" content="https://i.imgur.com/IM0ZR1V.png" />
+  <meta property="og:type" content="website" />
+
+  <title>Dr. Bishnoi Child Wellness Center — Udaipur</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👶</text></svg>" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========================================================
+       SPLASH SCREEN
+  ======================================================== -->
+  <div id="splash" role="status" aria-label="Loading">
+    <div class="splash-lines">
+      <div class="line line-top"></div>
+      <div class="splash-name" id="splashName"></div>
+      <div class="line line-bottom"></div>
+    </div>
+    <div class="splash-subtitle" id="splashSubtitle">CHILD WELLNESS CENTER</div>
+    <div class="splash-shimmer" id="splashShimmer"></div>
+    <div class="splash-tagline" id="splashTagline">Trusted Child Care in Udaipur</div>
+    <div class="splash-rating" id="splashRating">⭐ 5.0 Rated · ₹500 Consultation</div>
+    <div class="splash-flash" id="splashFlash"></div>
+  </div>
+
+  <!-- ========================================================
+       CANVAS BACKGROUND
+  ======================================================== -->
+  <canvas id="bgCanvas" aria-hidden="true"></canvas>
+
+  <!-- ========================================================
+       NAVIGATION
+  ======================================================== -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Dr Bishnoi Child Wellness Center Home">
+        <span class="logo-dr">Dr Bishnoi</span>
+        <span class="logo-sub">CHILD WELLNESS CENTER</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#book" class="nav-link">Book</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <a href="https://wa.me/918619501881" class="nav-cta" target="_blank" rel="noopener noreferrer">
+            💬 WhatsApp
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========================================================
+       MAIN CONTENT
+  ======================================================== -->
+  <main id="mainContent">
+
+    <!-- ── HERO ── -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <div class="hero-badge">🏥 UDAIPUR'S TRUSTED CHILD SPECIALIST</div>
+          <h1 class="hero-title">
+            Trusted Child Care<br>
+            <span class="text-gradient">in Udaipur.</span>
+          </h1>
+          <p class="hero-subtitle">
+            Expert Pediatric Care for Newborns, Infants &amp; Children —
+            by Dr. Rajkumar Bishnoi, Child Specialist.
+          </p>
+
+          <div class="hero-stats" role="list" aria-label="Key statistics">
+            <div class="stat" role="listitem">
+              <span class="stat-val">⭐ 5.0</span>
+              <span class="stat-label">Google Rating</span>
+            </div>
+            <div class="stat" role="listitem">
+              <span class="stat-val">₹500</span>
+              <span class="stat-label">Consultation Fee</span>
+            </div>
+            <div class="stat" role="listitem">
+              <span class="stat-val">22+</span>
+              <span class="stat-label">Happy Reviews</span>
+            </div>
+            <div class="stat" role="listitem">
+              <span class="stat-val">5:30 PM</span>
+              <span class="stat-label">Opens Today</span>
+            </div>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="#book" class="btn btn-primary">Book Appointment</a>
+            <a href="https://wa.me/918619501881" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+            <a href="tel:+918619501881" class="btn btn-outline">📞 Call Clinic</a>
+          </div>
+
+          <div class="hero-tags" aria-label="Specializations">
+            <span>👶 Child Specialist</span>
+            <span>🩺 Neonatologist</span>
+            <span>💉 Immunization Expert</span>
+            <span>🏥 NICU &amp; PICU</span>
+            <span>⭐ 5.0 Star Rated</span>
+            <span>💊 Same Day Care</span>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="image-glow" aria-hidden="true"></div>
+          <img src="https://i.imgur.com/IM0ZR1V.png" alt="Dr. Rajkumar Bishnoi — Pediatrician &amp; Child Specialist" loading="eager" />
+          <div class="image-badge" aria-hidden="true">
+            <span class="badge-rating">⭐ 5.0</span>
+            <span class="badge-text">Google Rating</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">MEET THE DOCTOR</span>
+          <h2>Dr. Rajkumar Bishnoi</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image reveal">
+            <img src="https://i.imgur.com/IM0ZR1V.png" alt="Dr. Rajkumar Bishnoi, Pediatrician in Udaipur" />
+            <div class="about-badges">
+              <span class="about-badge">5.0 · 22 Reviews</span>
+              <span class="about-badge-title">PEDIATRICIAN &amp; CHILD SPECIALIST</span>
+            </div>
+          </div>
+
+          <div class="about-content reveal">
+            <p class="about-desc">
+              Experienced pediatrician dedicated to newborn and child wellness. Dr. Bishnoi is
+              trusted by families across Udaipur for compassionate, accurate and effective
+              treatment for children of all ages.
+            </p>
+            <p class="about-desc">
+              Specializing in neonatology, NICU/PICU care, immunization programs, jaundice
+              management, and comprehensive child health monitoring.
+            </p>
+            <div class="about-tags">
+              <span class="tag">Pediatrician</span>
+              <span class="tag">Neonatologist</span>
+              <span class="tag">NICU Specialist</span>
+              <span class="tag">Immunization Expert</span>
+            </div>
+            <a href="#book" class="btn btn-primary">Book Consultation →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SERVICES ── -->
+    <section id="services" class="services section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">OUR SERVICES</span>
+          <h2>Expert Child Care Services</h2>
+          <p>Comprehensive pediatric care from newborn to teenage years.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">🩺</div>
+            <h3>Pediatric Consultation</h3>
+            <p>Expert diagnosis and treatment for children of all ages.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">👶</div>
+            <h3>Newborn Care</h3>
+            <p>Complete care for your newborn from day one.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">🏥</div>
+            <h3>NICU / PICU</h3>
+            <p>Specialized intensive care unit guidance for critical cases.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">💉</div>
+            <h3>Vaccination</h3>
+            <p>Complete immunization schedule as per national guidelines.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">🌡️</div>
+            <h3>Jaundice Treatment</h3>
+            <p>Safe and effective neonatal jaundice management.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">🤒</div>
+            <h3>Fever &amp; Infection Care</h3>
+            <p>Quick relief treatment for fever, cold and infections.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">📈</div>
+            <h3>Growth Monitoring</h3>
+            <p>Regular tracking of your child's growth milestones.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">🥗</div>
+            <h3>Nutrition Advice</h3>
+            <p>Expert dietary guidance for healthy child development.</p>
+          </article>
+        </div>
+
+        <div class="services-cta reveal">
+          <a href="#book" class="btn btn-primary">Book Consultation</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── WHY CHOOSE US ── -->
+    <section class="why-us section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">WHY PARENTS CHOOSE US</span>
+          <h2>Trusted by Udaipur Families</h2>
+        </div>
+
+        <div class="why-grid">
+          <article class="why-card reveal">
+            <div class="why-icon" aria-hidden="true">⭐</div>
+            <h3>22 Positive Reviews</h3>
+            <p>5.0 star rating on Google from verified patients.</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-icon" aria-hidden="true">🏅</div>
+            <h3>Experienced Hands</h3>
+            <p>Years of specialized pediatric practice and expertise.</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-icon" aria-hidden="true">🎠</div>
+            <h3>Child-Friendly Clinic</h3>
+            <p>Warm, comfortable environment designed for children.</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-icon" aria-hidden="true">⚡</div>
+            <h3>Quick Relief Treatment</h3>
+            <p>Fast diagnosis and effective treatment for faster recovery.</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-icon" aria-hidden="true">🔬</div>
+            <h3>Modern Care Approach</h3>
+            <p>Latest medical guidelines and treatment protocols.</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-icon" aria-hidden="true">🛡️</div>
+            <h3>Safe Environment</h3>
+            <p>Hygienic, safe and clean clinic for your child.</p>
+          </article>
+        </div>
+
+        <div class="why-stats reveal">
+          <span class="ws">5.0★ Google Rating</span>
+          <span class="ws">22+ Happy Reviews</span>
+          <span class="ws">₹500 Consultation Fee</span>
+          <span class="ws">5:30 PM Opens Daily</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── TESTIMONIALS ── -->
+    <section class="testimonials section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">PARENT REVIEWS</span>
+          <h2>What Parents Say</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Card 1 -->
+          <article class="testimonial-card reveal">
+            <div class="t-stars" aria-label="5 stars">★★★★★</div>
+            <p class="t-text">
+              "Very good doctor for children. My child recovered quickly. Dr. Bishnoi
+              is very caring and knowledgeable. We feel very safe here."
+            </p>
+            <div class="t-reviewer">
+              <div class="t-avatar" style="background: linear-gradient(135deg,#0EA5E9,#06B6D4)" aria-hidden="true">K</div>
+              <div class="t-info">
+                <div class="t-name">— Kavita Rathore</div>
+                <div class="t-city">Udaipur, Rajasthan</div>
+              </div>
+            </div>
+            <div class="t-footer">
+              <span class="t-pill">Fever Treatment</span>
+              <span class="t-google"><span class="g-icon" aria-hidden="true">G</span> Google Review</span>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="testimonial-card reveal">
+            <div class="t-stars" aria-label="5 stars">★★★★★</div>
+            <p class="t-text">
+              "Quick relief for kids. We visited for jaundice treatment and the results
+              were outstanding. Highly recommend Dr. Bishnoi to all parents."
+            </p>
+            <div class="t-reviewer">
+              <div class="t-avatar" style="background: linear-gradient(135deg,#0EA5E9,#06B6D4)" aria-hidden="true">S</div>
+              <div class="t-info">
+                <div class="t-name">— Suresh Meghwal</div>
+                <div class="t-city">Udaipur, Rajasthan</div>
+              </div>
+            </div>
+            <div class="t-footer">
+              <span class="t-pill">Jaundice Treatment</span>
+              <span class="t-google"><span class="g-icon" aria-hidden="true">G</span> Google Review</span>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="testimonial-card reveal">
+            <div class="t-stars" aria-label="5 stars">★★★★★</div>
+            <p class="t-text">
+              "Highly recommended in Udaipur. Dr. Bishnoi is the best pediatrician
+              we have found. Very experienced and the clinic is very child-friendly."
+            </p>
+            <div class="t-reviewer">
+              <div class="t-avatar" style="background: linear-gradient(135deg,#10B981,#06B6D4)" aria-hidden="true">P</div>
+              <div class="t-info">
+                <div class="t-name">— Priya Sharma</div>
+                <div class="t-city">Udaipur, Rajasthan</div>
+              </div>
+            </div>
+            <div class="t-footer">
+              <span class="t-pill">Newborn Care</span>
+              <span class="t-google"><span class="g-icon" aria-hidden="true">G</span> Google Review</span>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="testimonial-card reveal">
+            <div class="t-stars" aria-label="5 stars">★★★★★</div>
+            <p class="t-text">
+              "Experienced and caring doctor. My baby's complete vaccination schedule
+              is handled perfectly. We trust Dr. Bishnoi completely."
+            </p>
+            <div class="t-reviewer">
+              <div class="t-avatar" style="background: linear-gradient(135deg,#0EA5E9,#06B6D4)" aria-hidden="true">R</div>
+              <div class="t-info">
+                <div class="t-name">— Ramesh Bishnoi</div>
+                <div class="t-city">Udaipur, Rajasthan</div>
+              </div>
+            </div>
+            <div class="t-footer">
+              <span class="t-pill">Immunization</span>
+              <span class="t-google"><span class="g-icon" aria-hidden="true">G</span> Google Review</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── BOOKING ── -->
+    <section id="book" class="book section">
+      <div class="container">
+        <div class="book-grid">
+          <!-- Form side -->
+          <div class="book-form-side reveal">
+            <span class="section-tag">BOOK CONSULTATION</span>
+            <h2>Book Your Child's<br>Appointment</h2>
+
+            <form id="bookForm" class="book-form" novalidate>
+              <div class="form-group">
+                <label for="parentName">👤 PARENT NAME *</label>
+                <input type="text" id="parentName" name="parentName" placeholder="Your full name" required autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="phone">📞 PHONE NUMBER *</label>
+                <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required autocomplete="tel" />
+              </div>
+              <div class="form-group">
+                <label for="childAge">👶 CHILD AGE *</label>
+                <input type="text" id="childAge" name="childAge" placeholder="e.g. 2 years, 6 months" required />
+              </div>
+              <div class="form-group">
+                <label for="problem">🌡️ PROBLEM / CONCERN *</label>
+                <textarea id="problem" name="problem" rows="3" placeholder="Briefly describe your child's concern" required></textarea>
+              </div>
+              <div class="form-group">
+                <label for="prefTime">🕐 PREFERRED TIME</label>
+                <input type="text" id="prefTime" name="prefTime" placeholder="e.g. 5:30 PM, 6:00 PM" />
+              </div>
+
+              <button type="submit" class="btn btn-whatsapp btn-full">
+                BOOK CONSULTATION ON WHATSAPP →
+              </button>
+
+              <div class="form-notes" aria-label="Booking notes">
+                <span>✓ Confirmation via WhatsApp</span>
+                <span>✓ Consultation Fee: ₹500</span>
+                <span>✓ Opens at 5:30 PM daily</span>
+              </div>
+            </form>
+          </div>
+
+          <!-- Info side -->
+          <div class="book-info-side reveal">
+            <img src="https://i.imgur.com/IM0ZR1V.png" alt="Dr. Rajkumar Bishnoi" />
+            <div class="book-doctor-name">Dr. Rajkumar Bishnoi</div>
+            <div class="book-doctor-title">Pediatrician · Child Specialist</div>
+
+            <div class="book-steps">
+              <h3>How it works</h3>
+              <div class="step"><span class="step-num">1</span> Fill the form</div>
+              <div class="step"><span class="step-num">2</span> Get WhatsApp confirmation</div>
+              <div class="step"><span class="step-num">3</span> Visit at 5:30 PM</div>
+            </div>
+
+            <blockquote class="book-quote">
+              "My priority is your child's health. Every child deserves the best care."
+              <cite>— Dr. Rajkumar Bishnoi</cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">FIND US</span>
+          <h2>Visit Our Clinic</h2>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Details -->
+          <div class="contact-details reveal">
+            <h3>Clinic Details</h3>
+
+            <div class="contact-item">
+              <span class="ci-icon" aria-hidden="true">🕐</span>
+              <div>
+                <div class="ci-label">Opening Hours</div>
+                <div class="ci-value">Opens at 5:30 PM Daily</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="ci-icon" aria-hidden="true">📍</span>
+              <div>
+                <div class="ci-label">Address</div>
+                <div class="ci-value">100 Feet Road, Sardina Niwas,<br>Udaipur, Rajasthan</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="ci-icon" aria-hidden="true">📞</span>
+              <div>
+                <div class="ci-label">Phone</div>
+                <div class="ci-value">+91 86195 01881</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="ci-icon" aria-hidden="true">💬</span>
+              <div>
+                <div class="ci-label">WhatsApp</div>
+                <div class="ci-value">+91 86195 01881</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="ci-icon" aria-hidden="true">💰</span>
+              <div>
+                <div class="ci-label">Consultation Fee</div>
+                <div class="ci-value">₹500</div>
+              </div>
+            </div>
+
+            <div class="contact-buttons">
+              <a href="tel:+918619501881" class="btn btn-outline">📞 Call Now</a>
+              <a href="https://wa.me/918619501881" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+              <a href="https://maps.google.com/?q=Dr+Bishnoi+Child+Wellness+Center+100+Feet+Road+Sardina+Niwas+Udaipur" class="btn btn-outline" target="_blank" rel="noopener noreferrer">📍 Directions</a>
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div class="contact-map reveal">
+            <h3>Dr Bishnoi Child Wellness Center</h3>
+            <p>100 Feet Road, Udaipur</p>
+
+            <div class="map-embed">
+              <iframe
+                src="https://maps.google.com/maps?q=100+Feet+Road+Udaipur+Rajasthan+India&output=embed"
+                width="100%"
+                height="300"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Dr Bishnoi Child Wellness Center Location">
+              </iframe>
+            </div>
+
+            <a href="https://maps.google.com/?q=Dr+Bishnoi+Child+Wellness+Center+100+Feet+Road+Sardina+Niwas+Udaipur" class="btn btn-outline" target="_blank" rel="noopener noreferrer">📍 Get Directions →</a>
+
+            <div class="quick-book">
+              <h3>Book in 60 seconds</h3>
+              <p>Quick appointment request</p>
+              <a href="#book" class="btn btn-primary">Book Now →</a>
+              <a href="https://wa.me/918619501881" target="_blank" rel="noopener noreferrer">Or WhatsApp directly →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================
+       FOOTER
+  ======================================================== -->
+  <footer role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          Dr Bishnoi
+          <span>CHILD WELLNESS CENTER</span>
+        </div>
+        <p>Trusted Child Care in Udaipur</p>
+        <p class="footer-copy">© 2025 Dr Bishnoi Child Wellness Center</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>QUICK LINKS</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#book">Book</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-info">
+        <h4>CLINIC INFO</h4>
+        <ul>
+          <li>+91 86195 01881</li>
+          <li>WhatsApp: +91 86195 01881</li>
+          <li>Opens at 5:30 PM Daily</li>
+          <li>100 Feet Road, Udaipur</li>
+          <li>₹500 Consultation</li>
+        </ul>
+        <p class="footer-mission">Caring for children is our mission 👶</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================
+       WHATSAPP FLOATING BUTTON
+  ======================================================== -->
+  <a
+    href="https://wa.me/918619501881?text=Hello%20Dr.%20Bishnoi!%20I%20want%20to%20book%20an%20appointment%20for%20my%20child.%20%F0%9F%91%B6"
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat on WhatsApp to book appointment">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
